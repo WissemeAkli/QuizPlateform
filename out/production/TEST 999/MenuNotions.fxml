@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="400.0" prefWidth="609.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuNotionsController">
+    <children>
+        <Label layoutX="208.0" layoutY="14.0" prefHeight="44.0" prefWidth="186.0" text="Menu Notions" textFill="#248086">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+        <Button id="formation" layoutX="99.0" layoutY="68.0" mnemonicParsing="false" onAction="#creerNotion" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Creer Notion" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button id="quitter" layoutX="3.0" layoutY="349.0" mnemonicParsing="false" onAction="#retour" prefHeight="44.0" prefWidth="95.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Retour" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+
+        <Button id="formation" layoutX="99.0" layoutY="127.0" mnemonicParsing="false" onAction="#ajouterQst" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Ajouter une question à une notion" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button id="formation" layoutX="99.0" layoutY="184.0" mnemonicParsing="false" onAction="#supprQst" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Supprimer une question d'une notion" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button id="formation" layoutX="99.0" layoutY="245.0" mnemonicParsing="false" onAction="#supprNot" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Supprimer une notion" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+      <Button id="formation" layoutX="99.0" layoutY="298.0" mnemonicParsing="false" onAction="#afficherNot" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Afficher toutes les notions" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+    </children>
+</Pane>

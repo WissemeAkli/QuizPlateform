@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="400.0" prefWidth="609.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FirstPageControlller">
+    <children>
+        <Label layoutX="246.0" layoutY="21.0" prefHeight="44.0" prefWidth="117.0" text="ESI QUIZ" textAlignment="RIGHT" textFill="#248086">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+        <Button id="formation" layoutX="177.0" layoutY="102.0" mnemonicParsing="false" onAction="#CnxForm" prefHeight="38.0" prefWidth="256.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Connexion Formateur" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button id="notion" layoutX="177.0" layoutY="168.0" mnemonicParsing="false" onAction="#CnxApprenant" prefHeight="38.0" prefWidth="256.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Connexion Apprenant" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button id="generer" layoutX="177.0" layoutY="234.0" mnemonicParsing="false" onAction="#InsFormateur" prefHeight="38.0" prefWidth="256.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Inscription Formateur" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button id="quitter" layoutX="20.0" layoutY="334.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Quitter" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+    </children>
+</Pane>

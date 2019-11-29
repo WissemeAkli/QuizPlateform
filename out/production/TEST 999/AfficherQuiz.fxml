@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="400.0" prefWidth="609.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AfficherQuizController">
+    <children>
+        <Button id="retour" fx:id="retour" layoutX="24.0" layoutY="342.0" mnemonicParsing="false" onAction="#retour" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Retour" textFill="WHITE" />
+        <ScrollPane layoutX="120.0" layoutY="111.0" prefHeight="211.0" prefWidth="370.0" style="-fx-background-color: #CCE5E4 #CCE5E4;">
+            <content>
+                <VBox fx:id="questionVbox" prefHeight="941.0" prefWidth="360.0" style="-fx-background-color: #CCE5E4 #CCE5E4;" />
+            </content>
+        </ScrollPane>
+        <Label layoutX="94.0" layoutY="33.0" text="Nom du QUIZ :" textFill="#105754">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label layoutX="94.0" layoutY="71.0" text="Formation :" textFill="#105754">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label layoutX="362.0" layoutY="33.0" text="DateO :" textFill="#105754">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label layoutX="364.0" layoutY="69.0" text="DateF :" textFill="#105754">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="nomQ" layoutX="210.0" layoutY="35.0" text="Label" />
+        <Label fx:id="nomF" layoutX="210.0" layoutY="70.0" text="Label" />
+        <Label fx:id="dateO" layoutX="440.0" layoutY="35.0" text="Label" />
+        <Label fx:id="dateF" layoutX="440.0" layoutY="73.0" text="Label" />
+    </children>
+</Pane>

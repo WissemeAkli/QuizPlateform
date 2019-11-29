@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="400.0" prefWidth="609.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuApprenantsController">
+    <children>
+        <Label layoutX="188.0" layoutY="24.0" prefHeight="44.0" prefWidth="233.0" text="Menu Apprenants" textFill="#248086">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+        <Button id="formation" layoutX="99.0" layoutY="92.0" mnemonicParsing="false" onAction="#AjouterApprenants" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Ajouter un Apprenant" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button id="quitter" layoutX="172.0" layoutY="318.0" mnemonicParsing="false" onAction="#retour" prefHeight="38.0" prefWidth="256.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Retour" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+
+        <Button id="formation" layoutX="99.0" layoutY="147.0" mnemonicParsing="false" onAction="#classerAppr" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Afficher les apprenants par classement" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button id="formation" layoutX="99.0" layoutY="203.0" mnemonicParsing="false" onAction="#supprAppr" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Supprimer un apprenant" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+      <Button id="formation" layoutX="101.0" layoutY="259.0" mnemonicParsing="false" onAction="#modifAppr" prefHeight="44.0" prefWidth="404.0" style="-fx-background-color: #46CCCC #46CCCC;" text="Modifier les informations d'un apprenant" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+    </children>
+</Pane>
